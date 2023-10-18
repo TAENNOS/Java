@@ -17,30 +17,39 @@ public class w04 {
         System.out.println(flag3);
 
         // (1) 피 연산자 중 하나라도 true이면 true => 또는 (OR : ||)
-        System.out.println("---------");
+        System.out.println("OR---------");
 
         System.out.println("2)");
         System.out.println(flag1 || flag2); // true
         System.out.println(flag1 || flag2 || flag3); // true
-
-        System.out.println("---------");
 
         System.out.println("3)");
         System.out.println((5 > 3) || (3 > 1)); // true && true -> true
         System.out.println((5 > 3) || (3 < 1)); // true && false -> true
 
         // (2) 피 연산자가 모두 true이면 true => 그리고 (AND : &&)
-        System.out.println("---------");
+        System.out.println("AND---------");
 
         System.out.println("4)");
         System.out.println(flag1 && flag2); // true
         System.out.println(flag1 && flag2 && flag3); // true
 
-        System.out.println("---------");
 
         System.out.println("5)");
         System.out.println((5 > 3) && (3 > 1)); // true && true -> true
         System.out.println((5 > 3) && (3 < 1)); // true && false -> false
 
+        // System.out.println(1 < 3 < 5); // 불가능
+
+        // 논리 부정 연산자 (! : NOT)
+        System.out.println("NOT---------");
+
+        System.out.println("6)");
+        System.out.println(!flag1); // false
+        System.out.println(!flag3); // true
+
+        System.out.println("7)");
+        System.out.println(!(5 == 5)); // false
+        System.out.println(!(5 == 3)); // true
     }
 }

@@ -1,7 +1,8 @@
+package week01;
 
 // 클래스
 // public : (접근)제어자, 상위 폴더 내의 어디서든 접근 가능
-public class Main1 {
+public class Main {
 
     // [JDK]의 역할
     // (1) compiler : .java -> .class

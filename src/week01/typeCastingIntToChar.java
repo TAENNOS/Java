@@ -1,7 +1,7 @@
-// 숫자 -> 문자
+package week01;// 숫자 -> 문자
 import java.util.Scanner;
 
-public class Main2 {
+public class typeCastingIntToChar {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,6 +10,6 @@ public class Main2 {
         char ch = (char)asciiNumber; // 문자로 형변환을 해주면 숫자에 맞는 문자로 표현됩니다.
 
         System.out.println(ch);
-    }
 
+    }
 }

@@ -1,0 +1,32 @@
+1. 대입연산자 ++i와 i++는 어떤 차이가 있는지?
+    -++i는 대입연산자에서, i++는 for문의 증가연산 조건에서 마주침
+
+2. int[] numbers = {3, 6, 9, 12, 15};
+           for (int i=0; i < 5; i++) {
+               System.out.println(numbers[i]);
+           }
+   출력 : 3, 6, 9, 12, 15
+   -for문의 조건에서 i값이 갯수를 의미하는지 숫자를 의미하는지
+   -출력문에
+   System.out.println(numbers[i]);
+   입력시 3, 3, 3, 3, 3 출력
+
+3. int[] numbers = {3, 6, 9, 12, 15};
+           for (int number: numbers) {
+               System.out.print(number + " ");
+           }
+
+           System.out.println("---------");
+
+           int[] numbers2 = {3, 6, 9, 12, 15};
+           for (int i=0; i < 5; i++) {
+               System.out.print(numbers2[i] + " ");
+           }
+    출력:
+    3 6 9 12 15 ---------
+    3 6 9 12 15
+
+    아래와 같이 바꾸려면?
+    3 6 9 12 15
+    ---------
+    3 6 9 12 15

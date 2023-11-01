@@ -36,6 +36,7 @@ public class Arr05_String배열 {
 
         // (5) toCharArray() : String -> char[]
         char[] strCharArray = str.toCharArray();
+        System.out.println(strCharArray);
 
         // (6) 반대로 char[] -> String -> char
         char[] charArray = {'A', 'B', 'C'};

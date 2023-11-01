@@ -1,0 +1,14 @@
+                  [             Car             ]
+                       + company : String
+                       + model : String
+                       + color : String
+                       + price : double
+                       + speed : double
+                       + gear : char
+                       + lights : boolean
+                  [           + Car()          ]
+                       + gasPedal() : double
+                       + brakePedal() : double
+                       + chageGear() : char
+                       + onOffLight() : boolean
+                       + horn() : void
